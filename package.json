@@ -18,6 +18,7 @@
     "index.mjs",
     "index.mjs.map"
   ],
+  "sideEffects": false,
   "scripts": {
     "build": "npm run build:node && npm run build:browser",
     "build:node": "rollup --config",
